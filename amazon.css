@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 110px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* box 2 */
+.add-1 {
+    color: wheat;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: antiquewhite;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 230%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Search-icon {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(237, 157, 9);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: black;
+}
+
+/* box 4 */
+span {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-second {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opt {
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+.panel-details {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("hero.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+/* shop-section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(58, 58, 194, 0.686);
+}
+
+.box {
+    height: 300px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    margin: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 230px;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* footer */
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: rgba(18, 18, 105, 0.853);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.foot-panel2 {
+    background-color: rgba(18, 18, 105, 0.853);
+    color: whitesmoke;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+ul p {
+    font-weight: 800;
+}
+
+.foot-panel3 {
+    background-color: rgba(18, 18, 105, 0.853);
+    color: whitesmoke;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 {
+    height: 80px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    font-size: 0.8rem;
+    align-items: center;
+    padding: 25px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    align-items: center;
+    padding: 5px;
+}
